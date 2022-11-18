@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
@@ -87,4 +91,65 @@ body {
 #brand .hero img {
     width: 20%;
     float: left;
+}
+
+#features {
+    text-align: center;
+}
+
+#colu1 {
+    background-image: url('assets/c1.png');
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: center;
+}
+
+#colu1 h4:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#colu2 {
+    background-image: url('assets/c2.png');
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: center;
+}
+
+#colu2 h4:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#colu3 {
+    background-image: url('assets/c3.png');
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: center;
+}
+
+#colu3 h4:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
